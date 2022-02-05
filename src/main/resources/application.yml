@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    postgres-db:
+      jdbc-url: jdbc:postgresql://localhost:5432/psvm
+      username: postgres
+      password: 355455
+      driver-class-name: org.postgresql.Driver
+      connection-timeout: 20000 #20 sec
+      minimum-idle: 5
+      maximum-pool-size: 10
+      max-lifetime: 900000 #15 min
